@@ -1,0 +1,27 @@
+{
+  "name": "innovate-hub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fransuelton/innovate-hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fransuelton/innovate-hub/issues"
+  },
+  "homepage": "https://github.com/Fransuelton/innovate-hub#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.6.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
