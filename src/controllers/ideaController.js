@@ -21,3 +21,10 @@ export const createIdea = (request, response) => {
     });
   }
 };
+
+export const getIdeas = (request, response) => {
+  return response.status(200).json({
+    success: true,
+    data: ideas,
+  });
+};
