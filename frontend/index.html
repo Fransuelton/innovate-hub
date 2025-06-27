@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InnovateHub</title>
+  </head>
+  <body>
+    <header>
+      <h1>InnovateHub</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>💡 Submit an idea</h2>
+
+        <form id="form">
+          <input
+            type="text"
+            name="title"
+            id="title"
+            placeholder="Enter a title"
+          />
+
+          <input
+            type="text"
+            name="description"
+            id="description"
+            placeholder="Describe your idea"
+          />
+
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        <br />
+        <p class="status-message"></p>
+      </section>
+      <section>
+        <h2>Ideas</h2>
+
+        <div class="ideas"></div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
